@@ -1,4 +1,5 @@
 import 'package:allwidgets/FloatingActionButton/floatingactionbutton_.dart';
+import 'package:allwidgets/PageView/pageview_.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,8 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/MyFloatingActionButton',
+      initialRoute: '/MyPageView',
       routes: {
+        '/MyPageView': (context) => const MyPageView(),
         '/MyFloatingActionButton': (context) => const MyFloatingActionButton(),
       },
     );
