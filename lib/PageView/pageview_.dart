@@ -60,6 +60,7 @@ class _MyPageViewState extends State<MyPageView> {
 }
 
 
+
 /*
   1. add dependencies: smooth_page_indicator: ^1.0.1
   2. Create Pages
